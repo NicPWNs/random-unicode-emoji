@@ -1,8 +1,8 @@
 # random-unicode-emoji
 
-A simple 4kb lib that returns random unicode emojis. 
+A small, simple lib that returns random unicode emojis. 
 
-Has no dependencies 👼
+Only 4kb and has no dependencies 👼
 
 ## Install ✨
 
