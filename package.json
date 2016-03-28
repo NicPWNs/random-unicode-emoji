@@ -1,6 +1,6 @@
 {
   "name": "random-unicode-emoji",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns random unicode emojis",
   "main": "src/random-unicode-emoji.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "keywords": [
     "emoji",
     "random",
-    "unicode",
+    "unicode"
   ],
   "author": "pirijan",
   "license": "ISC",

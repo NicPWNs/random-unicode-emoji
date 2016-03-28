@@ -6,7 +6,7 @@ module.exports = {
   random: function(options) {
     var numberOfEmojis = options.count;
     var result = []
-    for (i = 0, len = numberOfEmojis.length; i < len; i++) {
+    for (i = 0, len = numberOfEmojis; i < len; i++) {
       randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
       result.push(randomEmoji);
     }
