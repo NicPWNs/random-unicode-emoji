@@ -14,6 +14,6 @@ Only 4kb and has no dependencies 👼
 var randomEmoji = require('random-unicode-emoji');
 
 randomEmoji.random({count: 3})
-// -> ["🐸","🍇","🚣"]
+// -> ["🐸", "🍇", "🚣"]
 
 ```
