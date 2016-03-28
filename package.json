@@ -1,0 +1,26 @@
+{
+  "name": "random-unicode-emoji",
+  "version": "1.0.0",
+  "description": "Returns random unicode emojis",
+  "main": "src/random-unicode-emoji.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pketh/random-unicode-emoji.git"
+  },
+  "dependencies": {
+  },
+  "keywords": [
+    "emoji",
+    "random",
+    "unicode",
+  ],
+  "author": "pirijan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pketh/random-unicode-emoji/issues"
+  },
+  "homepage": "https://github.com/pketh/random-unicode-emoji"
+}
