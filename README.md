@@ -20,7 +20,9 @@ randomEmoji.random({count: 3})
 
 ## Updating on NPM
 
-- Bump up the `version` specified in `package.json`
+After making changes like adding ne emojis, you'll need to republish it on npm so that users can update to it
+
+- Bump up the `version` number in `package.json`
 - Open the repo folder in terminal
 - `$ npm adduser`
 - `$ npm publish`
