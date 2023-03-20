@@ -10,7 +10,7 @@ Only 4kb and has no dependencies 👼
 
 ## Usage 🐙
 
-```
+```js
 var randomEmoji = require('random-unicode-emoji');
 
 randomEmoji.random({count: 3})
@@ -20,7 +20,7 @@ randomEmoji.random({count: 3})
 
 ## Updating on NPM
 
-After making changes like adding ne emojis, you'll need to republish it on npm so that users can update to it
+After making changes like adding new emojis, you'll need to republish it on npm so that users can update to it
 
 - Bump up the `version` number in `package.json`
 - Open the repo folder in terminal
