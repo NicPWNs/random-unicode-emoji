@@ -1,5 +1,13 @@
 # random-unicode-emoji (JavaScript 📜)
 
+[![NPM](https://img.shields.io/npm/v/random-unicode-emoji)](https://www.npmjs.com/package/random-unicode-emoji)
+[![Downloads](https://img.shields.io/npm/dw/random-unicode-emoji)](https://www.npmjs.com/package/random-unicode-emoji)
+[![GitHub Repo stars](https://img.shields.io/github/stars/NicPWNs/random-unicode-emoji)](https://github.com/NicPWNs/random-unicode-emoji/stargazers)
+[![Forks](https://img.shields.io/github/forks/NicPWNs/random-unicode-emoji.svg)](https://github.com/NicPWNs/random-unicode-emoji/forks)
+[![GitHub Repo size](https://img.shields.io/github/repo-size/NicPWNs/random-unicode-emoji)](https://github.com/NicPWNs/random-unicode-emoji)
+[![Open Issues](https://img.shields.io/github/issues/NicPWNs/random-unicode-emoji.svg)](https://github.com/NicPWNs/random-unicode-emoji/issues)
+[![Project Status](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+
 A small, simple JavaScript package that returns random unicode emojis. ❤️
 
 ## Install ✨
