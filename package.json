@@ -1,14 +1,14 @@
 {
   "name": "random-unicode-emoji",
-  "version": "1.0.1",
-  "description": "Returns random unicode emojis",
+  "version": "1.0.3",
+  "description": "Returns random Unicode emojis.",
   "main": "src/random-unicode-emoji.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pketh/random-unicode-emoji.git"
+    "url": "git+https://github.com/NicPWNs/random-unicode-emoji-js.git"
   },
   "dependencies": {
   },
@@ -17,10 +17,14 @@
     "random",
     "unicode"
   ],
-  "author": "pirijan",
+  "author": {
+    "name" : "NicPWNs",
+    "email" : "nic@nicpwns.com",
+    "url" : "https://github.com/NicPWNs"
+  },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pketh/random-unicode-emoji/issues"
+    "url": "https://github.com/NicPWNs/random-unicode-emoji-js/issues"
   },
-  "homepage": "https://github.com/pketh/random-unicode-emoji"
+  "homepage": "https://github.com/NicPWNs/random-unicode-emoji-js"
 }

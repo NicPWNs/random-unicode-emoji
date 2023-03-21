@@ -1,12 +1,14 @@
-# random-unicode-emoji
+# random-unicode-emoji (JavaScript 📜)
 
-A small, simple lib that returns random unicode emojis. 
-
-Only 4kb and has no dependencies 👼
+A small, simple JavasScript package that returns random unicode emojis. ❤️
 
 ## Install ✨
 
-`npm install random-unicode-emoji`
+```bash
+npm install random-unicode-emoji
+```
+
+> No dependencies!
 
 ## Usage 🐙
 
@@ -15,18 +17,24 @@ var randomEmoji = require('random-unicode-emoji');
 
 randomEmoji.random({count: 3})
 // -> ["🐸", "🍇", "🚣"]
-
 ```
 
-## Updating on NPM
+## Upgrade
 
-After making changes like adding new emojis, you'll need to republish it on npm so that users can update to it
+```bash
+npm update random-unicode-emoji
+```
 
-- Bump up the `version` number in `package.json`
-- Open the repo folder in terminal
-- `$ npm adduser`
-- `$ npm publish`
+## Unicode
 
-## Looking for Contributors
+Uses Unicode Standard Emoji from [Unicode.org](https://www.unicode.org/Public/emoji/)
 
-I'm pretty busy with [Kinopio](https://kinopio.club) these days and don't have time to keep this repo up to date with the latest unicode emojis. It's small and simple, and a couple people use it. If you'd like to contribute please do!
+> Currently supports the latest [Unicode Standard Version 15.0](https://www.unicode.org/Public/emoji/15.0/)
+
+## Maintainer
+
+[Nic Jones, (@NicPWNs)](https://github.com/NicPWNs)
+
+## Credit
+
+Originally created by [Pirijan, (@pketh)](https://github.com/pketh)
