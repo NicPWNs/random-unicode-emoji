@@ -1,5 +1,5 @@
 {
-  "name": "@nicpwns/random-unicode-emoji",
+  "name": "random-unicode-emoji",
   "version": "1.0.3",
   "description": "Returns random Unicode emojis.",
   "main": "src/random-unicode-emoji.js",
@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/NicPWNs/random-unicode-emoji.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
   },
