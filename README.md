@@ -1,4 +1,4 @@
-# random-unicode-emoji (JavaScript 📜)
+# random-unicode-emoji
 
 [![npm](https://img.shields.io/npm/v/random-unicode-emoji)](https://www.npmjs.com/package/random-unicode-emoji)
 [![downloads](https://img.shields.io/npm/dw/random-unicode-emoji)](https://www.npmjs.com/package/random-unicode-emoji)
@@ -39,6 +39,10 @@ npm update random-unicode-emoji
 Uses Unicode Standard Emoji from [Unicode.org](https://www.unicode.org/Public/emoji/)
 
 > Currently supports the latest [Unicode Standard Version 15.0](https://www.unicode.org/Public/emoji/15.0/)
+
+## Language
+
+This is the JavaScript 📜 version. There is also a [Python 🐍 version.](https://github.com/NicPWNs/random-unicode-emoji-py)
 
 ## Maintainer
 
