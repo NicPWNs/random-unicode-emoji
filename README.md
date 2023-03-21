@@ -10,6 +10,8 @@
 
 A small, simple JavaScript package that returns random unicode emojis. ❤️
 
+> Like this repo? Give it a [⭐ on GitHub!](https://github.com/NicPWNs/random-unicode-emoji)
+
 ## Install ✨
 
 ```bash
