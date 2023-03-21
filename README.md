@@ -5,7 +5,6 @@
 [![stars](https://img.shields.io/github/stars/NicPWNs/random-unicode-emoji)](https://github.com/NicPWNs/random-unicode-emoji/stargazers)
 [![forks](https://img.shields.io/github/forks/NicPWNs/random-unicode-emoji.svg)](https://github.com/NicPWNs/random-unicode-emoji/forks)
 [![repo size](https://img.shields.io/github/repo-size/NicPWNs/random-unicode-emoji)](https://github.com/NicPWNs/random-unicode-emoji)
-[![license](https://img.shields.io/npm/l/random-unicode-emoji)](https://www.npmjs.com/package/random-unicode-emoji)
 [![issues](https://img.shields.io/github/issues/NicPWNs/random-unicode-emoji.svg)](https://github.com/NicPWNs/random-unicode-emoji/issues)
 [![repo status](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
