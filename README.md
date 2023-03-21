@@ -1,6 +1,6 @@
 # random-unicode-emoji (JavaScript 📜)
 
-A small, simple JavasScript package that returns random unicode emojis. ❤️
+A small, simple JavaScript package that returns random unicode emojis. ❤️
 
 ## Install ✨
 
