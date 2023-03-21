@@ -1,5 +1,5 @@
 {
-  "name": "random-unicode-emoji",
+  "name": "@nicpwns/random-unicode-emoji",
   "version": "1.0.3",
   "description": "Returns random Unicode emojis.",
   "main": "src/random-unicode-emoji.js",
