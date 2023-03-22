@@ -29,7 +29,7 @@ randomEmoji.random({count: 3})
 // -> ["🐸", "🍇", "🚣"]
 ```
 
-## Upgrade ☀️
+## Update ☀️
 
 ```bash
 npm update random-unicode-emoji
