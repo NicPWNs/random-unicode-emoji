@@ -1,6 +1,7 @@
 # random-unicode-emoji
 
 [![npm](https://img.shields.io/npm/v/random-unicode-emoji)](https://www.npmjs.com/package/random-unicode-emoji)
+[![Unicode](https://img.shields.io/badge/Unicode-15.0-success)](https://www.unicode.org/Public/emoji/15.0/)
 [![downloads](https://img.shields.io/npm/dw/random-unicode-emoji)](https://www.npmjs.com/package/random-unicode-emoji)
 [![stars](https://img.shields.io/github/stars/NicPWNs/random-unicode-emoji)](https://github.com/NicPWNs/random-unicode-emoji/stargazers)
 [![forks](https://img.shields.io/github/forks/NicPWNs/random-unicode-emoji.svg)](https://github.com/NicPWNs/random-unicode-emoji/forks)
