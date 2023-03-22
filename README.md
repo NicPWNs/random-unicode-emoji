@@ -8,7 +8,7 @@
 [![issues](https://img.shields.io/github/issues/NicPWNs/random-unicode-emoji.svg)](https://github.com/NicPWNs/random-unicode-emoji/issues)
 [![repo status](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
-A small, simple JavaScript package that returns random unicode emojis. ❤️
+A simple JavaScript package that returns random Unicode emojis. ❤️
 
 > Like this repo? Give it a [⭐ on GitHub!](https://github.com/NicPWNs/random-unicode-emoji)
 
