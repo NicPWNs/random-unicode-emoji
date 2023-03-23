@@ -1,7 +1,7 @@
 {
   "name": "random-unicode-emoji",
   "version": "1.0.4",
-  "description": "A small, simple JavaScript package that returns random unicode emojis. ❤️",
+  "description": "A simple JavaScript package that returns random Unicode emojis. ❤️",
   "main": "src/random-unicode-emoji.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
