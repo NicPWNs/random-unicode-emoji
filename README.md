@@ -45,7 +45,7 @@ randomEmoji.random({count: 3, custom: message.guild.emojis.map()});
 // -> ["🤡", "<:HUH:1081269950800466059>", "😸"]
 ```
 
-> The `<:HUH:1081269950800466059>` translates to an emoji for a specific Discord guild.
+> `<:HUH:1081269950800466059>` translates to an emoji for a specific Discord guild.
 
 ## Update ☀️
 
