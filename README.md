@@ -37,7 +37,8 @@ randomEmoji.random({count: 3, custom: ['(° ͜ʖ ͡°)','(╯°□°)╯︵ ┻�
 
 ### Discord Bots
 
-This package is very popular among Discord bots. Below is an example of using the custom emoji feature to include custom Discord emojis.
+This package is very popular among Discord bots.
+Below is an example of using the custom emoji feature to include custom Discord emojis.
 
 ```js
 randomEmoji.random({count: 3, custom: message.guild.emojis.map()});
