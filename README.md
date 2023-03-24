@@ -23,11 +23,28 @@ npm install random-unicode-emoji
 ## Usage 🐙
 
 ```js
+// Require the module
 var randomEmoji = require('random-unicode-emoji');
 
-randomEmoji.random({count: 3})
+// Use the module
+randomEmoji.random({count: 3});
 // -> ["🐸", "🍇", "🚣"]
+
+// Add custom emoji
+randomEmoji.random({count: 3, custom: ['(° ͜ʖ ͡°)','(╯°□°)╯︵ ┻━┻']});
+// -> ["🔥", "(° ͜ʖ ͡°)", "⚾"]
 ```
+
+### Discord Bots
+
+This package is very popular among Discord bots. Below is an example of using the custom emoji feature to include custom Discord emojis.
+
+```js
+randomEmoji.random({count: 3, custom: message.guild.emojis.map()});
+// -> ["🤡", "<:HUH:1081269950800466059>", "😸"]
+```
+
+> The `<:HUH:1081269950800466059>` translates to an emoji for a specific Discord guild.
 
 ## Update ☀️
 
