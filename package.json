@@ -1,6 +1,6 @@
 {
   "name": "random-unicode-emoji",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple JavaScript package that returns random Unicode emojis. 📜",
   "main": "src/random-unicode-emoji.js",
   "scripts": {
@@ -26,8 +26,5 @@
   "bugs": {
     "url": "https://github.com/NicPWNs/random-unicode-emoji/issues"
   },
-  "homepage": "https://github.com/NicPWNs/random-unicode-emoji",
-  "files": [
-    "./emoji"
- ]
+  "homepage": "https://github.com/NicPWNs/random-unicode-emoji"
 }
