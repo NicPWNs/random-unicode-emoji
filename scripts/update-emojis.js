@@ -7,6 +7,7 @@ const path = require('path');
 const EMOJI_URL = 'https://www.unicode.org/Public/emoji/latest/emoji-test.txt';
 const SRC_FILE = path.join(__dirname, '..', 'src', 'random-unicode-emoji.js');
 const README_FILE = path.join(__dirname, '..', 'README.md');
+const PACKAGE_FILE = path.join(__dirname, '..', 'package.json');
 
 function fetch(url) {
   return new Promise((resolve, reject) => {
@@ -91,6 +92,15 @@ function updateReadme(version) {
   fs.writeFileSync(README_FILE, content);
 }
 
+function bumpPackageVersion() {
+  const pkg = JSON.parse(fs.readFileSync(PACKAGE_FILE, 'utf8'));
+  const [major, minor, patch] = pkg.version.split('.').map(Number);
+  pkg.version = `${major}.${minor + 1}.${patch}`;
+  fs.writeFileSync(PACKAGE_FILE, JSON.stringify(pkg, null, 2) + '\n');
+  console.log(`Bumped package version to ${pkg.version}`);
+  return pkg.version;
+}
+
 async function main() {
   console.log('Fetching latest emoji data from Unicode...');
   const data = await fetch(EMOJI_URL);
@@ -115,11 +125,16 @@ async function main() {
   updateReadme(version);
   console.log('Updated README');
 
+  const packageVersion = bumpPackageVersion();
+
   // Output for GitHub Actions
-  console.log(`::set-output name=version::${version}`);
-  console.log(`::set-output name=old_count::${currentCount}`);
-  console.log(`::set-output name=new_count::${emojis.length}`);
-  console.log(`::set-output name=changed::true`);
+  const output = process.env.GITHUB_OUTPUT;
+  if (output) {
+    fs.appendFileSync(output, `version=${version}\n`);
+    fs.appendFileSync(output, `package_version=${packageVersion}\n`);
+    fs.appendFileSync(output, `old_count=${currentCount}\n`);
+    fs.appendFileSync(output, `new_count=${emojis.length}\n`);
+  }
 
   console.log('Update complete!');
 }
