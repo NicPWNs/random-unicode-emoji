@@ -1,7 +1,7 @@
 # random-unicode-emoji
 
 [![npm](https://img.shields.io/npm/v/random-unicode-emoji)](https://www.npmjs.com/package/random-unicode-emoji)
-[![Unicode](https://img.shields.io/badge/Unicode-15.0-success)](https://www.unicode.org/Public/emoji/15.0/)
+[![Unicode](https://img.shields.io/badge/Unicode-17.0-success)](https://www.unicode.org/Public/emoji/17.0/)
 [![downloads](https://img.shields.io/npm/dw/random-unicode-emoji)](https://www.npmjs.com/package/random-unicode-emoji)
 [![stars](https://img.shields.io/github/stars/NicPWNs/random-unicode-emoji)](https://github.com/NicPWNs/random-unicode-emoji/stargazers)
 [![forks](https://img.shields.io/github/forks/NicPWNs/random-unicode-emoji.svg)](https://github.com/NicPWNs/random-unicode-emoji/forks)
@@ -57,7 +57,7 @@ npm update random-unicode-emoji
 
 Uses Unicode Standard Emoji from [Unicode.org](https://www.unicode.org/Public/emoji/)
 
-> Currently supports the latest [Unicode Standard Version 15.0](https://www.unicode.org/Public/emoji/15.0/)
+> Currently supports the latest [Unicode Standard Version 17.0](https://www.unicode.org/Public/emoji/17.0/)
 
 ## Language
 
