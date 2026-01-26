@@ -1,6 +1,6 @@
 {
   "name": "random-unicode-emoji",
-  "version": "1.5.0",
+  "version": "1.1.0",
   "description": "A simple JavaScript package that returns random Unicode emojis. 📜",
   "main": "src/random-unicode-emoji.js",
   "files": [
